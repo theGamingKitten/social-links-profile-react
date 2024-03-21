@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source code](https://github.com/theGamingKitten/social-links-profile-react)
-- Live Site URL: [Preview](https://thegamingkitten.github.io/social-links-profile-react/)
+- Live Site URL: [Preview](https://social-links-profile-react-eight.vercel.app/)
 
 ## My process
 
