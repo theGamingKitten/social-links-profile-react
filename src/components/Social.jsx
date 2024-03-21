@@ -3,7 +3,7 @@ export default function Social(props) {
     return (
         socials.map((social) => (
             <a 
-                class="social-link" 
+                className="social-link" 
                 href={social.socialLink}
                 target="_blank"
                 rel="noreferrer">
