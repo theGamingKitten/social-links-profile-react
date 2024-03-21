@@ -1,0 +1,26 @@
+@use 'colors';
+
+.profile-avatar {
+    border-radius: 50%;
+    width: 30%;
+    margin: 15px;
+  }
+  
+  .profile-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+  
+  .location {
+    color: colors.$primary-color;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+  }
+  
+  .quote {
+    font-weight: 400;
+    margin-bottom: 30px;
+  }

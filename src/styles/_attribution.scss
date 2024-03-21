@@ -1,0 +1,13 @@
+@use 'colors';
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+}
+      
+.attribution a { 
+    color: colors.$primary-color; 
+    text-decoration: none;
+}

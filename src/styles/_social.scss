@@ -1,0 +1,17 @@
+@use 'colors';
+
+.social-link {
+    text-decoration: none;
+    background-color: colors.$grey;
+    color: colors.$white;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    margin: 10px;
+  &:hover {
+    background-color: colors.$primary-color;
+    color: colors.$off-black;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,31 @@
+@use 'colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: colors.$off-black;
+  color: colors.$white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.profile-container {
+  background-color: colors.$dark-grey;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+@import 'profile';
+@import 'social';
+@import 'attribution';
+@import 'media';
