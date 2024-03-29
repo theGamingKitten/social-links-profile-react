@@ -1,14 +1,11 @@
-export default function Social(props) {
-    const socials = props.socials;
-    return (
-        socials.map((social) => (
-            <a 
-                className="social-link" 
-                href={social.socialLink}
-                target="_blank"
-                rel="noreferrer">
-                {social.socialName}                
-            </a>
-          ))
+export default function Social({ socialLink, socialName }) {
+    return (        
+        <a 
+            className="social-link" 
+            href={socialLink}
+            target="_blank"
+            rel="noreferrer">
+            {socialName}                
+        </a>
     );
 }

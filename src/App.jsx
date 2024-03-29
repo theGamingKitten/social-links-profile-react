@@ -1,6 +1,7 @@
 import './styles/index.css';
-import Card from './components/Card';
 import Attribution from './components/Attribution';
+import Profile from './components/Profile';
+import Social from './components/Social';
 import imgSrc from './assets/avatar.svg';
 
 const profileData = {
@@ -19,13 +20,19 @@ export default function App() {
   return (
     <>
         <div className="profile-container">           
-        <Card 
-          imgSrc={profileData.imgSrc}
-          profileName={profileData.profileName}
-          location={profileData.location}
-          quote={profileData.quote}
-          socials={profileData.socials}
-        /> 
+          <Profile 
+            imgSrc={profileData.imgSrc}
+            profileName={profileData.profileName}
+            location={profileData.location}
+            quote={profileData.quote}
+          />
+          {profileData.socials.map((item) => (
+          <Social 
+            socialLink={item.socialLink} 
+            socialName={item.socialName} 
+            key={crypto.randomUUID()}            
+          />
+        ))}
         <Attribution />
       </div>
     </>

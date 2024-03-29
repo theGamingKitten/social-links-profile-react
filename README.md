@@ -49,7 +49,7 @@ This is my first project done in React and the second time I did the Social Link
 
 After browsing several tutorials on React and not really understanding how to do things I decided to just start this project and look things up as I go.
 
-My goal was to be able to create different profile cards for different people which can be accomplished with the following (in App.js):
+My goal was to be able to create different profile cards for different people which can be accomplished with the following (in App.jsx):
 
 ```html
 <Card 
